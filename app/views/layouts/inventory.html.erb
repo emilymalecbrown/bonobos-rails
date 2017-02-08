@@ -1,0 +1,11 @@
+<div>
+  <% @inventory.each do |product| %>
+    <tr>
+      <td><%= product.product_id %></td>
+      <td><%= product.waist %></td>
+      <td><%= product.length %></td>
+      <td><%= product.style %></td>
+      <td><%= product.count %></td>
+    </tr>
+  <% end %>
+</div>
